@@ -42,4 +42,4 @@ else:
     elif (int(age) >= 60 and (int(age) < 90)):
         print("You should think about having a family")
     else: 
-        print("Goodbye" +" "+ name +" "+ "Youre" +age +"years Old of alient orign")
+        print("Goodbye" +" "+ name +" "+ "Youre " +age +" years Old of alient orign")
