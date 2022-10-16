@@ -10,4 +10,10 @@ while i <= x:
     if i % 2 == 0:
         print(i, end=" ")
     i = i + 1
-    
+
+# this works too but does not use the if statement inside the loop
+# num = 2
+
+# while num <= 10:
+#     print(num)
+#     num = num + 2
