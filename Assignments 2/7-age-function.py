@@ -1,14 +1,15 @@
-birth_year=2002
-def calculateAge(birth_year,name,weight):
+def calculates(name,birthyear,weight):
     today = 2022
-    age = today - birth_year
-    print("your age is:", age)
-    return age
+    age = today-birthyear
+    print("your age is", age )
 
-name =  str(input("what is your name"))
-if name =='':
-    name = "Lamara" #adds Lamara as defalt name 
+    name = name
+    if name == "":
+        name = "Lamara"
+   
              
-weight = int(input("what is  your weight"))
-print(calculateAge(birth_year, name, weight))
-print("your name is", name, "your  weight is", weight )
+    print("you are", name,  "your weight is", weight, "age is",age)
+
+weight = int(input("Enter your weight"))
+name = str(input("what is your name?"))
+calculates(name,2002,weight)
